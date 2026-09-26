@@ -1,0 +1,24 @@
+# Python
+backend/venv/
+**/__pycache__/
+*.pyc
+
+# Environment
+backend/.env
+
+# Uploaded files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Vector database
+backend/chroma_db/
+
+# Frontend
+frontend/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
